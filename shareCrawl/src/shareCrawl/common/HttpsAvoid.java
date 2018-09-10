@@ -7,7 +7,7 @@ import java.security.cert.X509Certificate;
 
 public class HttpsAvoid {
 	
-	public void  tlsAvoid() throws Exception {
+	public static void  tlsAvoid() throws Exception {
 	{
 
 		TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager(){
