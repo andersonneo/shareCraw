@@ -1,14 +1,10 @@
 package shareCrawl.naver;
 
 import java.io.IOException;
-import java.util.List;
-
-import javax.swing.plaf.synth.SynthSliderUI;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
 import shareCrawl.common.HttpsAvoid;
